@@ -1,0 +1,74 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box; 
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    height:  100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 20%;
+    left: 35%;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 5px 80px;
+    
+    font-weight: 300;
+    font-size: 18px;
+    margin: 40px 40px;
+    
+    color: #8e8b79;
+    background-color: white;
+    border:1px solid #42464b;
+    border-radius: 4px;
+    
+}
+.login {
+  background: #9b8a1d;
+
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 257px;
+  margin: 20px auto 0;
+  width: 440px;
+  padding-left: 60px;
+}
+
+input[type="text"] {
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+  font-size: 18px;
+}
+input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+
+
