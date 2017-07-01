@@ -1,9 +1,12 @@
 from huey import RedisHuey, crontab
-from app import check_price, find_price
+from app import check_price
+import time
 
-huey = RedisHuey()
-
-
-@huey.periodic_task(crontab(minute='*/1'))
 def check_for_price_change():
     check_price()
+    time.sleep(20)
+    
+
+while True:
+    check_for_price_change()    
+
