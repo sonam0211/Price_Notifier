@@ -1,4 +1,3 @@
-from huey import RedisHuey, crontab
 from app import check_price
 import time
 
