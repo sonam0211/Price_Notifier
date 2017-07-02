@@ -8,7 +8,7 @@ from selenium import webdriver
 
 
 app = Flask(__name__)
-yag = yagmail.SMTP("sonam0211@gmail.com", "02111996")
+yag = yagmail.SMTP("mail", "password")
 
 
 def setup_db():
